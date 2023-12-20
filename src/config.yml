@@ -1,33 +1,48 @@
-blocks-per-second: 10000
+blocks-per-second: 5000
 nukes:
-  - fuse: 30
+  - fuse: 15
     incendiary: false
     name: '&cNuclear warhead'
     recipe:
-      - COAL_BLOCK
-      - IRON_BLOCK
-      - COAL_BLOCK
-      - IRON_BLOCK
-      - URANIUM
-      - IRON_BLOCK
-      - COAL_BLOCK
-      - IRON_BLOCK
-      - COAL_BLOCK
+      - Steel_Plate
+      - Boosted_Uranium
+      - Steel_Plate
+      - Piston
+      - Boosted_Uranium
+      - Piston
+      - Steel_Plate
+      - Boosted_Uranium
+      - Steel_Plate
     id: LITTLE_NUKE
-    radius: 16
-  - fuse: 45
+    radius: 32
+  - fuse: 30
     incendiary: true
-    name: '&cMedium nuclear warhead'
+    name: '&cThermonuclear warhead'
     recipe:
-      - COAL_BLOCK
-      - REINFORCED_PLATE
-      - COAL_BLOCK
-      - REINFORCED_PLATE
-      - PLUTONIUM
-      - REINFORCED_PLATE
-      - COAL_BLOCK
-      - REINFORCED_PLATE
-      - COAL_BLOCK
+      - Steel_Plate
+      - Boosted_Uranium
+      - Steel_Plate
+      - Piston
+      - Boosted_Uranium
+      - Piston
+      - Steel_Plate
+      - Boosted_Uranium
+      - Steel_Plate
     id: MEDIUM_NUKE
+    radius: 32
+  - fuse: 45
+    incendiary: false
+    name: '&cHydrong bomb'
+    recipe:
+      - Steel_Plate
+      - Ongium
+      - Steel_Plate
+      - Piston
+      - Ongium
+      - Piston
+      - Steel_Plate
+      - Ongium
+      - Steel_Plate
+    id: Ong_NUKE
     radius: 32
 research-cost: 50
